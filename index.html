@@ -46,7 +46,18 @@ height: 100%;
 
 /* Background images are set within the HTML using inline CSS, not here */
 
+ .large-container {
+ 	width: 95%;
+ 	margin: auto;
 
+ }
+ .solid-header {
+ 	height: 200px;
+  z-index: 9999999999;
+ 	background:  orange;
+ 	position: absolute;
+ 	top: 3000px;
+ }
 
 .number {
 	color: #fff;
@@ -68,12 +79,22 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 .jumbotron{
-	margin-top: -40px;
+	
+
+	margin-top: 15px;
 	color: #006a90;
-	height: 60%;
+	height: 65%;
 	background: url('http://x.lnimg.com/photo/poster_1920/363a0f838eb64b97b4b962b9de2e9afe.jpg');
 	background-position: 0 30px;
 /*	border-bottom: 8px solid #7f8c8d;*/
+}
+.top {
+	height: 40px;
+	background: #212326;
+	width: 110%;
+	margin-left: -50px;
+	margin-top: -58px;
+	margin-bottom: 30px;	
 }
 .small-container {
 	width: 90%;
@@ -161,8 +182,12 @@ body {
 </head>
 <body>
   <div class="large-container"> 
+
 		<div class="jumbotron">
+			
 			<div class="row">  
+				<div class="solid-header"></div>
+				<section class="top"></section>
         <div class="col-md-8">
 			    <div class="head-contain" >
 		  	    <h2 class="main-heading">St. Francis Medical Arts Pavilon<h2>	  		
@@ -243,9 +268,9 @@ body {
 	    		  	<div class="description">
 								<h4 >Description</h4>
 								<p>
-								Full Service Lease includes nightly cleaning!!! Only extra is utilities. Class A professional office building in a prime location on a campus-like setting. 4,310 SF office space on 2nd floor with a large conference room, 6 private offices, large open space. Also 2,190 SF available which could be leased separately or combined to make a total of 6,500 SF. Beautiful space. Move-in condition. Shopping and restaurants nearby. Full service lease including nightly cleaning. Traffic light at corner and signage on Route 9. Large parking lot.
+								Full Service Lease includes nightly cleaning!!! Only extra is utilities. Class A professional medical office building in a prime location on a hospital campus setting. Beautiful space. Move-in condition. Shopping and restaurants nearby. Full service lease including nightly cleaning. Traffic light at corner and signage on Route 9. Large parking garage.
 
-								Situated in the Mid-Hudson Valley on Route 9, the most recognized and accessible location in the area with easy access from any direction. Close to downtown business district, train station, Mid-Hudson Bridge and directly across from the Samuel Morse Estate.</p>
+								Situated in the Mid-Hudson Valley on Route 9, the most recognized and accessible location in the area with easy access from any direction. Close to downtown business district, train station, Mid-Hudson Bridge Part of the new Mid Hudson  Reigional hosiptial campus associatied with Weschester Medical Center.</p>
 							</div>
     		   </div>
           </div>
@@ -347,7 +372,7 @@ body {
 			<div class="row">
 				 <div class="col-md-12">
 					<div class="well spaces"> 
-						<h3>Space 102</h3>
+						<h3>Space 401</h3>
 						<div class="table-responsive">
 						  <table class="table">
 						    <thead>
